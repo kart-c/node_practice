@@ -5,8 +5,12 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon index"
+		"start": "node index",
+		"dev": "nodemon index"
 	},
 	"author": "Kartikeya Choudhary",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"nodemon": "^2.0.22"
+	}
 }
