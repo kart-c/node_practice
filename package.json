@@ -8,5 +8,8 @@
 		"start": "nodemon index"
 	},
 	"author": "Kartikeya Choudhary",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"nodemon": "^2.0.22"
+	}
 }
